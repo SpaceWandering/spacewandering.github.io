@@ -95,9 +95,10 @@ body .container section:nth-of-type(6) {
     text-align: center;
 }
 
-.s img {
+.planet {
     height: 10vw;
     width: auto;
+    
 }
 
 nav {
@@ -122,30 +123,6 @@ nav a {
     padding-top: 0%;
     padding-bottom: 0%;
 
-}
-
-.team {
-    margin-top: 1%;
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    flex-wrap: wrap;
-}
-
-.member {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 50%;
-    margin: 0;
-    margin-left: -12%;
-    margin-right: -12%;
-    margin-bottom: 2%;
 }
 
 .links {
@@ -183,4 +160,36 @@ nav a {
 
 .fa-tiktok {
     color: rgb(254, 44, 85) 
+}
+
+.roadmap {
+    
+    width: 80vw;
+    height: auto;
+}
+
+.team {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.team img {
+    width: 10vw;
+    height: auto;
+}
+
+.team img:hover {
+    animation: flip 2s;
+}
+
+@keyframes flip {
+    from {
+        trasform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
 }
