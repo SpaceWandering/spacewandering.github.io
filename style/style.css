@@ -168,6 +168,12 @@ nav a {
     height: auto;
 }
 
+.roadmap2 {
+    
+    width: 40vw;
+    height: auto;
+}
+
 .team {
     width: 100%;
     display: flex;
